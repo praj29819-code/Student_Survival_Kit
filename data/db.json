@@ -1,0 +1,182 @@
+{
+  "user": {
+    "name": "Alex Rivera",
+    "major": "Computer Science & Engineering",
+    "semester": "4th Semester",
+    "college": "Apex Institute of Technology",
+    "targetAttendance": 75
+  },
+  "assignments": [
+    {
+      "id": "asg-1",
+      "title": "Red-Black Tree & AVL Tree Implementation",
+      "subject": "Data Structures & Algorithms",
+      "dueDate": "2026-10-28T23:59",
+      "priority": "high",
+      "status": "in-progress",
+      "description": "Implement insertion, deletion, and rotation operations in C++ with unit tests and complexity analysis report.",
+      "weightage": 15
+    },
+    {
+      "id": "asg-2",
+      "title": "Process Synchronization & Semaphores Lab",
+      "subject": "Operating Systems",
+      "dueDate": "2026-10-26T17:00",
+      "priority": "high",
+      "status": "pending",
+      "description": "Solve the Dining Philosophers and Producer-Consumer problems using POSIX mutex and semaphores.",
+      "weightage": 10
+    },
+    {
+      "id": "asg-3",
+      "title": "Normalized Database Schema (3NF/BCNF) Design",
+      "subject": "Database Management Systems",
+      "dueDate": "2026-11-02T23:59",
+      "priority": "medium",
+      "status": "pending",
+      "description": "Design an E-Commerce relational schema, generate DDL scripts, and normalize up to Boyce-Codd Normal Form.",
+      "weightage": 12
+    },
+    {
+      "id": "asg-4",
+      "title": "Subnetting & Packet Tracer Simulation",
+      "subject": "Computer Networks",
+      "dueDate": "2026-10-23T23:59",
+      "priority": "medium",
+      "status": "done",
+      "description": "Configure static routing, VLSM subnetting, and test end-to-end ping latency across 3 campus routers.",
+      "weightage": 8
+    },
+    {
+      "id": "asg-5",
+      "title": "Eigenvalues & Markov Chains Case Study",
+      "subject": "Discrete Mathematics & Linear Algebra",
+      "dueDate": "2026-11-06T18:00",
+      "priority": "low",
+      "status": "pending",
+      "description": "Calculate steady-state probability vectors for Google PageRank simplified model using matrix exponentiation.",
+      "weightage": 10
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "subject": "Data Structures & Algorithms",
+      "code": "CS401",
+      "attended": 29,
+      "total": 33,
+      "minimumRequired": 75
+    },
+    {
+      "id": "att-2",
+      "subject": "Operating Systems",
+      "code": "CS402",
+      "attended": 21,
+      "total": 30,
+      "minimumRequired": 75
+    },
+    {
+      "id": "att-3",
+      "subject": "Database Management Systems",
+      "code": "CS403",
+      "attended": 25,
+      "total": 28,
+      "minimumRequired": 75
+    },
+    {
+      "id": "att-4",
+      "subject": "Computer Networks",
+      "code": "CS404",
+      "attended": 18,
+      "total": 26,
+      "minimumRequired": 75
+    },
+    {
+      "id": "att-5",
+      "subject": "Discrete Mathematics & Linear Algebra",
+      "code": "MA401",
+      "attended": 24,
+      "total": 27,
+      "minimumRequired": 75
+    }
+  ],
+  "exams": [
+    {
+      "id": "ex-1",
+      "subject": "Operating Systems Mid-Term",
+      "code": "CS402",
+      "date": "2026-11-05",
+      "time": "09:30",
+      "room": "Auditorium Hall B",
+      "syllabusNotes": "Processes, Threads, CPU Scheduling (FCFS, SJF, Round Robin), Deadlock Detection & Banker's Algorithm, Virtual Memory paging.",
+      "weightage": 30
+    },
+    {
+      "id": "ex-2",
+      "subject": "Data Structures Final Lab Exam",
+      "code": "CS401",
+      "date": "2026-11-12",
+      "time": "14:00",
+      "room": "CS Lab 3",
+      "syllabusNotes": "Graph Traversals (BFS, DFS), Shortest Path (Dijkstra), Disjoint Set Union (DSU), Dynamic Programming on Trees.",
+      "weightage": 25
+    },
+    {
+      "id": "ex-3",
+      "subject": "Database Management Systems Theory",
+      "code": "CS403",
+      "date": "2026-11-19",
+      "time": "10:00",
+      "room": "Block 4 - Room 402",
+      "syllabusNotes": "Relational Algebra, SQL queries (Joins, Aggregates, Nested), Indexing (B+ Trees), Concurrency Control & ACID transactions.",
+      "weightage": 35
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Complete POSIX Semaphores lab report for OS",
+      "completed": false,
+      "priority": "high",
+      "category": "Academic",
+      "dueDate": "2026-10-25",
+      "order": 1
+    },
+    {
+      "id": "task-2",
+      "title": "Revise B+ Tree indexing & transaction ACID properties",
+      "completed": false,
+      "priority": "medium",
+      "category": "Study",
+      "dueDate": "2026-10-25",
+      "order": 2
+    },
+    {
+      "id": "task-3",
+      "title": "Solve 3 LeetCode problems on Dynamic Programming",
+      "completed": false,
+      "priority": "medium",
+      "category": "Coding",
+      "dueDate": "2026-10-24",
+      "order": 3
+    },
+    {
+      "id": "task-4",
+      "title": "Submit Wireshark packet capture analysis sheet",
+      "completed": false,
+      "priority": "low",
+      "category": "Academic",
+      "dueDate": "2026-10-24",
+      "order": 4
+    },
+    {
+      "id": "task-5",
+      "title": "Print semester registration and exam admit card",
+      "completed": false,
+      "priority": "low",
+      "category": "Personal",
+      "dueDate": "2026-10-26",
+      "order": 5
+    }
+  ]
+}

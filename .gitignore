@@ -1,0 +1,25 @@
+# Build & Binary Directories
+build/
+bin/
+out/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.suo
+*.user
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Editor & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
